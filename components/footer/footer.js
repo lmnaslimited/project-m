@@ -41,7 +41,7 @@ export default function Footer() {
       </div>
         <div className=" text-center mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row bg-lime-800">
           <p className="text-white text-lg text-center">© 2022 xyz Private Limited —
-            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@Author</a>
+            <a href="#" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@Author</a>
           </p>
       </div>
       </footer>
