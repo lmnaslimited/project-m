@@ -4,7 +4,7 @@ export default function brands() {
     return (
         <section className="lg:mx-40 md:mx-20 mx-2 h-60 md:mb-10">
             <div class="text-xl md:text-2xl lg:text-4xl text-2xl mb-10 text-center text-lime-800 font-bold">Our Clients</div>
-            <Marquee gradientWidth="150">
+            <Marquee gradientWidth="150" pauseOnHover>
 
                 <div className="px-10 lg:px-20">
                     <Image
