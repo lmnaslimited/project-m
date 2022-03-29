@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="grid lg:grid-rows-1 lg:grid-cols-3 grid-rows-2 grid-cols-2 bg-lime-400">
         <div className="lg:row-span-1 lg:col-span-1 row-span-1 col-span-2 mx-5 px-5 my-5 py-5">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
             <span className="ml-3 text-lime-800 text-xl">LOGO</span>
