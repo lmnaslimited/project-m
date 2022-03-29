@@ -1,14 +1,14 @@
 export default function Hero () {
     return (
-      <div class="py-16 bg-gray-300 my-5 mx-5">
-      <div class="container m-auto px-6">
+      <div class="h-auto bg-gray-300 my-5 mx-5">
+      <div class="flex p-60 rounded-l-full mx-0 my-0 bg-gray-800 px-6 mr-0 ml-10">
     
        <div class="lg:flex justify-between items-center">
            <div class="lg:w-6/12 lg:p-0 p-7">
-              <h1 class="text-4xl mx-20 font-bold leading-tight mb-2 capitalize">  Tailwind Website theme </h1>
-              <h1 class="text-3xl mx-20 font-bold leading-tight mb-5 capitalize"> designed for Clients. </h1>
-              <p class="text-lg mx-20">  With Tailwind you can optimized </p>
-              <p class="text-lg mx-20">customization process. </p>
+              <h1 class="text-4xl mx-20 font-bold text-gray-300 leading-tight mb-2 capitalize">  Tailwind Website theme </h1>
+              <h1 class="text-3xl mx-20 font-bold text-gray-300 leading-tight mb-5 capitalize"> designed for Clients. </h1>
+              <p class="text-lg mx-20 text-gray-300">  With Tailwind you can optimized </p>
+              <p class="text-lg mx-20 text-gray-300">customization process. </p>
     
               <div class="py-5">
                    <a href="#" class=" mx-20 text-white rounded-full py-2 px-5 text-lg font-semibold bg-purple-600 inline-block border border-purple-600 mr-3">Try for free</a>
