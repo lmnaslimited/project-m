@@ -1,7 +1,9 @@
+import Cards from "./cards"
 export default function Services() {
     return (
         <>
-            <section classNameName="text-gray-600 body-font">
+            <Cards/>
+          {/**  <section classNameName="text-gray-600 body-font">
                 <div className="container px-5 py-12 mx-auto">
                     <div className="flex flex-wrap -m-4">
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -71,6 +73,7 @@ export default function Services() {
                     </div>
                 </div>
             </section>
+            */} 
         </>
     )
 }
