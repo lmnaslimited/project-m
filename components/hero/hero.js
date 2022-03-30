@@ -1,28 +1,42 @@
-export default function Hero () {
-    return (
-      <div class="h-auto bg-gray-300 my-5 mx-5">
-      <div class="flex p-60 rounded-l-full mx-0 my-0 bg-gray-800 px-6 mr-0 ml-10">
-    
-       <div class="lg:flex justify-between items-center">
-           <div class="lg:w-6/12 lg:p-0 p-7">
-              <h1 class="text-4xl mx-20 font-bold text-gray-300 leading-tight mb-2 capitalize">  Tailwind Website theme </h1>
-              <h1 class="text-3xl mx-20 font-bold text-gray-300 leading-tight mb-5 capitalize"> designed for Clients. </h1>
-              <p class="text-lg mx-20 text-gray-300">  With Tailwind you can optimized </p>
-              <p class="text-lg mx-20 text-gray-300">customization process. </p>
-    
-              <div class="py-5">
-                   <a href="#" class=" mx-20 text-white rounded-full py-2 px-5 text-lg font-semibold bg-purple-600 inline-block border border-purple-600 mr-3">Try for free</a>
-                   <a href="#" class="text-black rounded-full py-2 px-5 text-lg font-semibold bg-gray-400 inline-block border hover:bg-white hover:text-black">Requist a demo</a>
-              </div>
-    
-            </div>
-            <div class="mr-40 mt-10 ring-offset-2 ring-4 rounded-full">
-              <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" class=" w-60 h-60 rounded-full"/>
-            </div>
+export default function Hero() {
+  return ( <>
+    <div className="h-auto bg-lime-800 my-5 mx-5">
+
+      <div className="flex p-60 rounded-l-full mx-0 my-0 bg-gradient-to-r from-gray-900 via-lime-800 to-gray-900 px-6 mr-0 ml-10">
+    <div class="flex justify-between">
+    <div>
+    <div className="text-6xl font-semibold text-gray-200">
+          <h1 className="text-4xl font-bold leading-tight capitalize">  Professional Tailwind theme </h1>
+            <h1 className="text-4xl font-bold leading-tight capitalize">design for Creators. </h1>
+          <p className="text-xl text-bg-gray-200">  With Tailwind you can optimized </p>
+          <p className="text-xl  text-bg-gray-200">the customization process. </p>
+          <div className="">
+            <a href="#" className="text-white rounded-full py-2 px-5 text-lg font-semibold bg-purple-600 inline-block border border-purple-600 mr-3">CTA BUTTON1</a>
+            <a href="#" className="text-black rounded-full py-2 px-5 text-lg font-semibold bg-gray-400 inline-block border hover:bg-white hover:text-black">CTA BUTTON2</a>
+          </div>
         </div>
-    
-      </div>
     </div>
-    )
+    <div>02</div>
+    <div>
+    <div className="flex flex-wrap w-96 h-96  items-center justify-center rounded-full bg-lime-800">
+          <div className=" md:w-1/3 flex flex-col text-center items-center">
+            <div className="w-80 h-80 inline-flex items-center justify-center rounded-full bg-lime-600 text-indigo-500 flex-shrink-0">
+              <div className=" md:w-1/3 flex flex-col text-center items-center">
+                <div className="w-60 h-60 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                 <img src="/global.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </>
+
+
+
+  )
 
 }
