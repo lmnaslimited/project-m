@@ -5,6 +5,9 @@ import Navbar from "../components/navbar/navbar";
 import Services from "../components/services/services";
 import Technologies from "../components/technologies/technologies";
 
+
+
+
 export default function Home() {
   return (
     <>

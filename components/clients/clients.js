@@ -1,9 +1,7 @@
-export default function Clients() {
+export default function clients() {
     return (
-        <>
-     <div className="my-10">
-            <h1> This is Ashok's Section</h1>
-            </div>
-        </>
+        <div>
+            <h1>This is ashok's Section</h1>
+        </div>
     )
 }
