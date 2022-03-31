@@ -6,11 +6,11 @@
   filter: grayscale(1);
 }
 :root {
-  --background: theme('colors.blue.400');
-  --background-secondary: theme('colors.gray.50');
+  --background: theme('colors.lime.400');
+  --background-secondary: theme('colors.lime.50');
 
   --accent-dark: theme('colors.pink.900');
-  --accent-medium: theme('colors.pink.700');
+  --accent-medium: theme('colors.purple.600');
   --accent-light: theme('colors.pink.500');
 
   --primary-dark: theme('colors.gray.800');
@@ -19,14 +19,14 @@
 }
 
 [data-theme='dark'] {
-  --background: theme('colors.gray.800');
+  --background: theme('colors.gray.900');
   --background-secondary: theme('colors.gray.600');
 
   --accent-dark: theme('colors.pink.900');
-  --accent-medium: theme('colors.pink.700');
+  --accent-medium: theme('colors.lime.400');
   --accent-light: theme('colors.pink.500');
 
-  --primary-dark: theme('colors.gray.300');
+  --primary-dark: theme('colors.white');
   --primary-medium: theme('colors.gray.200');
   --primary-light: theme('colors.gray.100');
 }
