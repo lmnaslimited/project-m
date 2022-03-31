@@ -6,6 +6,7 @@ import Navbar from "../components/navbar/navbar";
 import Services from "../components/services/services";
 import Technologies from "../components/technologies/technologies";
 import Container from "../components/container";
+import Partners from '../components/partners'
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
           <Services />
           <Technologies />
           <Clients />
+          <Partners />
         </Container>
       </Layout>
 
