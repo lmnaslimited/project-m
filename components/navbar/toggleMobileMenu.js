@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import AppContext from "context/appContext";
+import AppContext from '../../context/appContext';
 export default function ToggleMobileMenu() {
     const hiddenClass = ' hidden'
     //Important step to have the context data accessible inside this function
