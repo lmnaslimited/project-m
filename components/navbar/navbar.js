@@ -47,13 +47,13 @@ export default Navbar
 function BuildMenu({ categories }) {
   // const cat = categories.map((category) => { return category.name })
   return [
-    { menu: 'Industries' },
+    { menu: 'Services' },
     {
-      menu: 'Pricing',
+      menu: 'Technology',
     },
     {
-      menu: 'Blog',
+      menu: 'Clients',
       //    subMenus: [...cat]
-    }, { menu: 'Contact' }, { menu: 'Subscriptions' }
+    }, //{ menu: 'Contact' }, { menu: 'Subscriptions' }
   ]
 }
