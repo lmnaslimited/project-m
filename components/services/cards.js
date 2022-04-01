@@ -1,8 +1,8 @@
 import Image from "next/image"
 export default function Cards() {
     return(
-        <section classNameName="text-th-primary-dark body-font">
-  <div className="container px-5 mx-auto">
+        <section classNameName=" text-th-primary-dark body-font">
+  <div className="container py-12 px-5 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-th-accent-medium">Our Services
       </h1>
