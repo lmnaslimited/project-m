@@ -1,73 +1,77 @@
 export default function Technologies() {
     return (
         <>
-<section className="px-4 py-20 mx-auto max-w-7xl">
+<section className="container rounded-3xl my-40 py-40 px-20  shadow-white shadow-lg px-4 py-20 mx-auto max-w-7xl">
   <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-y-10 lg:gap-y-32 gap-x-10 lg:gap-x-24">
     <div>
-      <h2 className="mb-3 text-3xl font-extrabold leading-tight tracking-tight text-center text-th-accent-medium sm:text-left md:text-4xl">Technology Expertise</h2>
-      <p className="mb-6 text-lg text-center text-gray-600 sm:text-left md:text-xl">Let's put our heads together to build a successful partnership to benefit both your customers and your business.</p>
-      <a href="#" className="w-full btn btn-primary btn-lg sm:w-auto">Become a Partner</a>
+      <h2 className="mb-3 text-3xl font-extrabold leading-tight tracking-normal text-center text-th-accent-medium sm:text-left md:text-4xl">Technology Expertise</h2>
+      <p className="mb-6 text-lg text-center th-primary-dark sm:text-left md:text-xl">Our expertise span across SAP, Mobility, UI/UX, Analytics and other ERP platforms.</p>
+      <button
+      className="bg-amber-500 font-bold md:px-4 py-2 px-4  w-auto md:py-4  mb-2 md:mx-0 mx-8  rounded-lg focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+      type="button">
+      <a href="#" className="w-full text-white tracking-normal font-bold text-md md:text-lg th-primary-dark btn btn-primary btn-lg sm:w-auto">Become a Partner</a>
+      </button>
     </div>
-    <div className="flex flex-col flex-grow space-y-5">
+    <div className="flex bg-gray-800 shadow-amber-500 shadow-lg rounded-3xl md:p-12 p-12 transform transition hover:scale-105 duration-300 ease-in-out flex-col flex-grow md:space-y-5">
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">Email APIs, SMTP Relay, and Webhooks</p>
+        <p className="text-sm md:text-lg  th-primary-dark">SAP IS OIL Downstream & Upstream Modules</p>
       </div>
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">Suppression Management</p>
+        <p className="text-sm md:text-lg th-primary-dark">SD, MM, WM, PP, QM,FICO,HCM & ABAP</p>
       </div>
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">Email Tracking and Analytics</p>
+        <p className="text-sm md:text-lg th-primary-dark">SAP HANA</p>
       </div>
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">99.99% Guaranteed Uptime SLA</p>
+        <p className="text-sm md:text-lg th-primary-dark">SAP Integrations</p>
       </div>
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">5 Days of Log Retention</p>
+        <p className="text-sm md:text-lg th-primary-dark">Management</p>
       </div>
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">Limited 24/7 Ticket Support</p>
+        <p className="text-sm md:text-lg th-primary-dark"> JAVA, .Net, C#</p>
       </div>
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">1 Dedicated IP (Foundation 100k and up)</p>
+        <p className="text-sm md:text-lg th-primary-dark">Open link technologies (ENDUR)</p>
       </div>
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">1,000 Email Address Validations</p>
+        <p className="text-sm md:text-lg th-primary-dark">Web Technologies</p>
       </div>
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">Host events together or get your event sponsored</p>
+        <p className="text-sm md:text-lg th-primary-dark">Networking services</p>
       </div>
       <div className="flex items-start">
-        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-primary">
+        <svg viewBox="0 0 20 20" fill="currentColor" className="flex-none w-5 h-5 mt-1 mr-2 text-th-accent-medium">
           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
         </svg>
-        <p className="text-lg text-gray-700">Reach 90,000 customers via our integration page</p>
+        <p className="text-sm md:text-lg th-primary-dark">Reach 90,000 customers via our integration page</p>
       </div>
     </div>
   </div>

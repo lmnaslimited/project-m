@@ -20,9 +20,9 @@ const Navbar = ({ categories }) => {
   useEffect(() => setMounted(true), []);
   const appContext = useContext(AppContext);
   if (!mounted) return null;
-  return (<div>
+  return (<div className="bg-lime-500 shadow-white shadow-lg mb-2">
     <Container>
-      <nav className="mx-auto flex items-center justify-between flex-wrap py-6">
+      <nav className="mx-auto  flex items-center justify-between flex-wrap py-6">
         <Logo />
         {/**Handle Hamburger toggle and set the displayMobileMenu AppContext */}
         <ToggleMobileMenu />
