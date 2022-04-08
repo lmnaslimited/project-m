@@ -11,6 +11,7 @@ export default function Logo({size, textColor}) {
                     height={size?size:'60'}
                     width={size?size:'60'}
                     className='rounded-full'
+                    alt='Logo'
                 />
             </div>
             <span className="font-semibold text-3xl tracking-tight">SCL</span>

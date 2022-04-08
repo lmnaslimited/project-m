@@ -1,7 +1,7 @@
 export default function Technologies() {
     return (
         <>
-<section className="flex rounded-3xl my-40 py-40 px-20  shadow shadow-white px-4 py-20 mx-auto max-w-7xl">
+<section className="flex rounded-3xl my-40  px-20  shadow shadow-white px-4 py-20 mx-auto max-w-7xl">
   <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-y-10 lg:gap-y-32 gap-x-10 lg:gap-x-24">
     <div>
       <h2 className="mb-3 text-3xl font-extrabold leading-tight tracking-normal text-center text-th-accent-medium sm:text-left md:text-4xl">Technology Expertise</h2>

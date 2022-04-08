@@ -22,7 +22,7 @@ export default function CollapseMenu({ subMenus }) {
       <ul className={"absolute md:h-20 pt-1 group-hover:block" + (collapse ? hiddenClass : null)}>
         {
           subMenus.map((subMenu) => (
-            <li className="">
+            <li key={subMenu} className="">
               <a className="bg-th-primary-dark text-th-background-secondary rounded-t  hover:bg-pink-500 dark:hover:text-pink-500 py-2 px-4 block whitespace-no-wrap" href="#">
                 {subMenu}
               </a>
