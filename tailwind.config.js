@@ -6,12 +6,17 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      boxShadow: {
+        DEFAULT: '-8px -8px 12px 0px',
+      },
+
       colors: {
         emerald: colors.emerald,
         fuchsia: colors.fuchsia,
         pink: colors.pink,
         teal: colors.teal,
         lime: colors.lime,
+        midnight: '#010724',
         'th-background': 'var(--background)',
         'th-background-secondary': 'var(--background-secondary)',
         'th-foreground': 'var(--foreground)',

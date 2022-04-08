@@ -20,9 +20,9 @@ const Navbar = ({ categories }) => {
   useEffect(() => setMounted(true), []);
   const appContext = useContext(AppContext);
   if (!mounted) return null;
-  return (<div>
+  return (<div className="bg-teal-600  h-28">
     <Container>
-      <nav className="mx-auto flex items-center justify-between flex-wrap py-6">
+      <nav className="mx-auto  flex items-center justify-between flex-wrap py-6">
         <Logo />
         {/**Handle Hamburger toggle and set the displayMobileMenu AppContext */}
         <ToggleMobileMenu />
@@ -47,13 +47,13 @@ export default Navbar
 function BuildMenu({ categories }) {
   // const cat = categories.map((category) => { return category.name })
   return [
-    { menu: 'Industries' },
+    { menu: 'Services' },
     {
-      menu: 'Pricing',
+      menu: 'Technology',
     },
     {
-      menu: 'Blog',
+      menu: 'Clients',
       //    subMenus: [...cat]
-    }, { menu: 'Contact' }, { menu: 'Subscriptions' }
+    }, //{ menu: 'Contact' }, { menu: 'Subscriptions' }
   ]
 }

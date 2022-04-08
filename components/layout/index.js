@@ -6,7 +6,7 @@ import Navbar from '../navbar/navbar'
 export default function Index({ children }) {
     return (
         <>
-      <div className="bg-th-background">
+      <div className="bg-midnight">
        {/* <NavbarTail/> */}
         <Navbar/>
 
