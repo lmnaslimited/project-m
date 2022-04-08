@@ -14,9 +14,9 @@ export default function Hero() {
     </div>
     <div className="row-span-1 col-span-1">
     <div className="grid grid-cols-14 grid-flow-col gap-4 ml-4">
-  <div className="col-start-1 col-end-5"><img className="rounded-xl h-60 -mt-24  " src="/hero/bg-sec3-1000x1000.png"/></div>
-  <div className="col-start-5 col-end-9"><img className="rounded-xl h-60 -mt-24" src="/hero/bg-sec2-1000x666.png"/></div>
-  <div className="col-start-3 col-end-10 "><img className="rounded-xl w-96 h-60 -mt-16  shadow-teal-400 shadow backdrop-opacity-50" src="https://img.freepik.com/free-vector/gradient-dashboard-element-collection_23-2148372636.jpg?t=st=1649411956~exp=1649412556~hmac=e06043281bb586a96dbc5c457eccc56d5779d93ecd0b6e48cd78321032155338&w=1060"/></div>
+  <div className="col-start-1 col-end-5"><img className="rounded-xl h-60 -mt-8  " src="/hero/bg-sec2-1000x666.png"/></div>
+  <div className="col-start-5 col-end-9"><img className="rounded-xl h-72 -mt-20 -ml-10" src="/hero/bg-sec3-1000x1000.png"/></div>
+  <div className="col-start-3 col-end-10 "><img className="rounded-xl w-96 h-60 -mt-16  shadow-teal-600 shadow backdrop-opacity-50" src="/hero/bg-sec1-1000x666.png"/></div>
  
  </div>
     </div>

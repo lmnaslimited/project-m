@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
     >
       
       <ThemeProvider>
-      <div className='bg-th-background'>
+      <div className='bg-midnight'>
         <Component {...pageProps} />
         </div>
       </ThemeProvider>
