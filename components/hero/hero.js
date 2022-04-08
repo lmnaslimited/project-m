@@ -1,54 +1,28 @@
 import Container from "../container";
 
 export default function Hero() {
-  return (
-    <section className="leading-normal tracking-normal bg-cover pb-40 bg-fixed ">
-     <div className="h-full">
-      <Container>
-        <div className="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-
-          <div className="flex flex-col w-full xl:w-1/2 justify-center lg:items-start overflow-y-hidden">
-            <h1 className=" md:mb-10 mb-2 lg:w-1/1 w-full text-2xl md:text-4xl text-th-accent-medium opacity-75 font-bold leading-tight text-center lg:text-left">
-              Get Edge ERP Expertise And Consulting
-            </h1>
-            <span className="mb-4 text-2xl  md:text-4xl text-th-accent-medium opacity-75 font-bold leading-tight text-center lg:text-left">
-            </span>
-
-            <p className="leading-normal lg:w-3/5 xl:w-full font-semibold tracking-normal  text-base text-md md:text-xl md:mb-2 lg:mb-0 text-center lg:text-left">
-              Our Engagement is just a click away
-            </p>
-            <p className="leading-normal lg:w-1/3 xl:w-1/2 font-semibold tracking-normal text-base text-md md:text-xl mb-4 lg:mb-16 text-center lg:text-left">Contact Us to get started
-            </p>
-
-
-            <div className="flex items-center justify-center text-md lg:justify-between md:pt-4">
-              <button
-                className="bg-amber-500 hover:bg-amber-500 text-white font-bold px-4 py-1 md:py-4 md:px-10 mb-2 ml-1  rounded-lg focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-                type="button"
-              >
-                Get Started
-              </button>
-            </div>
-
-          </div>
-
-
-          <div className="w-full xl:w-1/2 lg:1/2 py-12 md:pl-20 p-12 lg:pl-20  overflow-hidden">
-            <img className="mx-auto lg:w-full xl:1/1 md:w-3/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="https://img.freepik.com/free-vector/minimal-white-style-video-player-template-design_1017-25481.jpg?t=st=1648970020~exp=1648970620~hmac=10b20230b2ff4f1a5c842f9a0fd8ed24c1f71ed82a431bcc13ae7a718b7607a5&w=996" />
-          </div>
-
-          <div className="mx-auto md:pt-16">
-
-            <div className="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
-            </div>
-          </div>
-
-
-
-        </div>
-      </Container>
+  return (<>
+    <section className="leading-normal tracking-normal py-80 pt-10 bg-cover md:bg-cover bg-[url('/hero/bg-hero-1000x666.png')] ">
+  <div className="grid grid-rows-1 grid-cols-2 gap-2 mr-10 py-20 ">
+    <div className="row-span-1 col-span-1 ">
+    <div className=" ml-20">
+                    <h1 className="mb-10 font-bold drop-shadow-lg text-4xl md:text-5xl max-w-xl text-white leading-tight">Don't listen to what they say, Go See</h1>
+                   </div>
+    <button type="button" className=" mt-20 ml-20 px-12 py-4 m-1 text-white text-lg font-semibold transition-colors duration-200 transform bg-amber-500 rounded-md ">
+                            Join Us
+                        </button>               
     </div>
+    <div className="row-span-1 col-span-1">
+    <div className="grid grid-cols-14 grid-flow-col gap-4 ml-4">
+  <div className="col-start-1 col-end-5"><img className="rounded-xl h-60 -mt-24  " src="/hero/bg-sec3-1000x1000.png"/></div>
+  <div className="col-start-5 col-end-9"><img className="rounded-xl h-60 -mt-24" src="/hero/bg-sec2-1000x666.png"/></div>
+  <div className="col-start-3 col-end-10 "><img className="rounded-xl w-96 h-60 -mt-16  shadow-teal-400 shadow backdrop-opacity-50" src="https://img.freepik.com/free-vector/gradient-dashboard-element-collection_23-2148372636.jpg?t=st=1649411956~exp=1649412556~hmac=e06043281bb586a96dbc5c457eccc56d5779d93ecd0b6e48cd78321032155338&w=1060"/></div>
+ 
+ </div>
+    </div>
+  </div>
   </section>
+  </>
   )
 
 }

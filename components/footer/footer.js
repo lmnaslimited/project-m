@@ -45,7 +45,7 @@ export default function Footer() {
        
       </div>
     
-      <div className=" text-center mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row bg-lime-500">
+      <div className=" text-center mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row bg-teal-400 opacity-80">
    
         <p className="text-white font-semibold text-lg text-center">© 2022 xyz Private Limited —
           <a href="#" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@Author</a>

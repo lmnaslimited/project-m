@@ -13,7 +13,7 @@ export default function brands() {
             <Marquee gradientWidth="150" pauseOnHover>
 
 
-                <div class="grid grid-cols-2 gap-8 text-center lg:grid-cols-5 mx-4">
+                <div class="grid grid-cols-3 gap-8 text-center lg:grid-cols-5 mx-4">
                     <div class="mx-8 flex items-center justify-center p-6 rounded-2xl relative w-full bg-gray-50">
                         <Image
                             src='/clients/ibm-logox300.png'

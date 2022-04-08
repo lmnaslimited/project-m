@@ -6,6 +6,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      boxShadow: {
+        DEFAULT: '-8px -8px 12px 0px',
+      },
+
       colors: {
         emerald: colors.emerald,
         fuchsia: colors.fuchsia,

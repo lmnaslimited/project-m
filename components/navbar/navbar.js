@@ -20,7 +20,7 @@ const Navbar = ({ categories }) => {
   useEffect(() => setMounted(true), []);
   const appContext = useContext(AppContext);
   if (!mounted) return null;
-  return (<div className="bg-lime-500 shadow-white shadow-lg mb-2">
+  return (<div className="bg-teal-400  h-28">
     <Container>
       <nav className="mx-auto  flex items-center justify-between flex-wrap py-6">
         <Logo />
