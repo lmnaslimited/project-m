@@ -9,7 +9,6 @@ export default function MenuList({ menuItems }) {
         //A Sub function to build individual menu
         menuItems.map((menuItem) => (
           <Menu key={menuItem.menu} menuItem={menuItem} />)
-
         )}
     </div>
   )
@@ -17,7 +16,7 @@ export default function MenuList({ menuItems }) {
 //Sub function to build the individual menu
 function Menu({ menuItem }) {
   return (
-    <a href="#responsive-header" className="block mt-4 pr-8 lg:inline-block lg:mt-0 text-gray-800 hover:text-th-accent-medium mr-4">
+    <a href="#responsive-header" className="block mt-4 pr-8 lg:inline-block lg:mt-0 text-th-primary-dark hover:text-th-primary-medium mr-4">
       {menuItem.menu}
       {menuItem.subMenus ? (
         <CollapseMenu subMenus={menuItem.subMenus} />

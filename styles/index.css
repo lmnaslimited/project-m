@@ -19,15 +19,15 @@
 }
 
 [data-theme='dark'] {
-  --background: theme('colors.gray.900');
-  --background-secondary: theme('colors.gray.600');
+  --background: theme('colors.midnight');
+  --background-secondary: theme('colors.gray.800');
 
-  --accent-dark: theme('colors.pink.900');
-  --accent-medium: theme('colors.lime.400');
+  --accent-dark: theme('colors.teal.600');
+  --accent-medium: theme('colors.amber.500');
   --accent-light: theme('colors.pink.500');
 
   --primary-dark: theme('colors.white');
-  --primary-medium: theme('colors.gray.200');
+  --primary-medium: theme('colors.lime.500');
   --primary-light: theme('colors.gray.100');
 }
 

@@ -16,5 +16,4 @@ export default function ToggleMobileMenu() {
             </button>
         </div>
     )
-
 }

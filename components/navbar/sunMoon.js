@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import { useTheme } from 'next-themes';
 export default function SunMoon() {
-    //Determine how many points the slider need to move
-    const toggleClass = ' transform translate-x-3';
-    const [toggle, setToggle] = useState(false);
+    const [toggle, setToggle] = useState(true);
     // Refer Blog https://darrenwhite.dev/blog/nextjs-tailwindcss-theming
     // Themes are configured in /styles/index.css
     const { theme, setTheme } = useTheme();
