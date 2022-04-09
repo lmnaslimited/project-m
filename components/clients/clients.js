@@ -1,19 +1,7 @@
 
 import Marquee from "react-fast-marquee";
 import Image from 'next/image'
-const clients = {
-    title: 'Trusted by Global Clients, Built by Us',
-    subTitle: 'Our Client Speak our values.',
-    logos: [
-        { 'name': 'IBM', 'logo': '/clients/ibm-logox300.png' },
-        { 'name': 'Shell', 'logo': '/clients/shell-logox300.jpeg' },
-        { 'name': 'Kelloggs', 'logo': '/clients/kelloggs-logox300.png' },
-        { 'name': 'Neste oil', 'logo': '/clients/neste-oil-logox300.png' },
-        { 'name': 'National Grid', 'logo': '/clients/national-gridx300.png' },
-
-    ]
-}
-export default function brands() {
+export default function brands({clients}) {
     return (
         <section className="lg:mx-40 md:mx-8 mx-2 h-60 md:mb-10">
             <div className="flex flex-col text-center w-full mb-20">

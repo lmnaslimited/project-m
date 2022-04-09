@@ -1,21 +1,4 @@
-const technologies = {
-  title: 'Technology Expertise',
-  subTitle: 'Our expertise span across SAP, Mobility, UI/UX, Analytics and other ERP platforms.',
-  ctaText: 'Become a Partner',
-  expertise: [
-    'SAP IS OIL Downstream & Upstream Modules',
-    'SD, MM, WM, PP, QM,FICO,HCM & ABAP',
-    'SAP HANA',
-    'SAP Integrations',
-    'Management',
-    'JAVA, .Net, C#',
-    'Open link technologies (ENDUR)',
-    'Web Technologies',
-    'Networking services',
-    'Reach 90,000 customers via our integration page'
-  ]
-}
-export default function Technologies() {
+export default function Technologies({technologies}) {
   return (
     <>
       <section className="flex rounded-3xl my-40  px-20  shadow shadow-white py-20 mx-auto max-w-7xl">

@@ -1,16 +1,6 @@
 import Image from "next/image";
-const partners = {
-    title: 'Our Partners',
-    subTitle: 'A Blended delivery will give optimum cost and maximum benefit. We have partnered with an energetic startup to benefit our clients the most.',
-    name: 'LMNAs Cloud Solutions',
-    logo: '/partners/lmnas-logo-circular.png',
-    text1: 'An Indian Startup who have built a range of ',
-    textHighlight: 'ERP & ECommerce',
-    text2: ', products inhouse and services clients globally'
 
-}
-
-export default function Index() {
+export default function Index({partners}) {
     return (
         <section classNameName="bg-purple-50 ">
             <div className=" py-32 mt-72 mb-20 lg:my-40 shadow shadow-th-primary-dark rounded-3xl mx-auto max-w-7xl px-20 ">
