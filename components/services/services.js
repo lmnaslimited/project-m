@@ -1,13 +1,5 @@
 import Card from "./card"
-/*const services = [
-    { title: 'SAP', subTitle: 'Consulting', image: '/services/sap-512x512.png' },
-    { title: 'IT', subTitle: 'Consulting', image: '/services/consulting-512x512.png' },
-    { title: 'IS Oil', subTitle: 'Expertise', image: '/services/is-oil-512x512.png' },
-    { title: 'Talent', subTitle: 'Resourcing', image: '/services/talent-512x512.png' },
-    { title: 'CLOUD', subTitle: 'Migration', image: '/services/migration-512x512.png' },
-    { title: 'HANA', subTitle: 'Cloud', image: '/services/cloud-512x512.png' },
-    { title: 'SUPPORT', subTitle: 'Maintenance', image: '/services/support-512x512.png' },
-] */
+
 export default function Services({services}) {
     return (
         <>
