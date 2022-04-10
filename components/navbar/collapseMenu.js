@@ -1,6 +1,5 @@
 import { useState } from 'react';
 export default function CollapseMenu({ subMenus }) {
-  console.log(subMenus)
   const hiddenClass = ' hidden'
   const [collapse, setCollapse] = useState(true);
   return (

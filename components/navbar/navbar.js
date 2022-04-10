@@ -20,7 +20,7 @@ const Navbar = ({ categories }) => {
   useEffect(() => setMounted(true), []);
   const appContext = useContext(AppContext);
   if (!mounted) return null;
-  return (<div className="bg-teal-600  h-28">
+  return (<div className="bg-th-accent-dark  h-28">
     <Container>
       <nav className="mx-auto  flex items-center justify-between flex-wrap py-6">
         <Logo />
@@ -53,7 +53,9 @@ function BuildMenu({ categories }) {
     },
     {
       menu: 'Clients',
+      // Uncomment below code to enable submenus
       //    subMenus: [...cat]
-    }, //{ menu: 'Contact' }, { menu: 'Subscriptions' }
+    }, 
+    //{ menu: 'Contact' }, { menu: 'Subscriptions' }
   ]
 }
