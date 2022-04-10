@@ -1,6 +1,7 @@
 
 import Marquee from "react-fast-marquee";
 import Image from 'next/image'
+import { imagePrefix } from "../../lib/envConvert";
 export default function brands({clients}) {
     return (
         <section className="lg:mx-40 md:mx-8 mx-2 h-60 md:mb-10">
@@ -15,7 +16,7 @@ export default function brands({clients}) {
                     {clients.logos.map((client) => (
                         <div key={client.name} className="mx-8 flex items-center justify-center p-6 rounded-2xl relative w-full bg-gray-50">
                             <Image
-                                src={client.logo}
+                                src={imagePrefix(client.logo)}
                                 height='50'
                                 width='100'
                                 className="absolute duration-75 w-full h-full  object-center border-th-accent-medium"

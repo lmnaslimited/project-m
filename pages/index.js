@@ -24,6 +24,7 @@ export default function Home({homeData}) {
 }
 
 export async function getStaticProps() {
+  console.log('Process Env', process.env.BACKEND_URL)
   const homeData = await getHomePageData()
   return{ 
     props: { homeData}

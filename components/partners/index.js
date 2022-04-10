@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { imagePrefix } from "../../lib/envConvert";
 
 export default function Index({partners}) {
     return (
@@ -11,7 +12,7 @@ export default function Index({partners}) {
                 </div>
                 <div className="bg-th-background-secondary shadow shadow-th-accent-medium rounded-3xl transform transition hover:scale-105 duration-300 ease-in-out p-8 grid items-center w-full grid-cols-1 gap-10 mx-auto lg:grid-cols-8 lg:gap-4 xl:w-3/4">
                     <div className="w-40 h-40 col-span-1 lg:col-span-2 bg-th-primary-dark rounded-full ring-4">
-                        <Image src="/partners/lmnas-logo-circular.png" className="object-cover  bg-center rounded-md shadow-xl" alt="Lmnas Logo" width={'160'} height={'160'} />
+                        <Image src={imagePrefix("/partners/lmnas-logo-circular.png")} className="object-cover  bg-center rounded-md shadow-xl" alt="Lmnas Logo" width={'160'} height={'160'} />
                     </div>
                     <div className="ml-4 col-span-1 lg:col-span-6">
                         <p className="mb-5 text-lg font-semibold text-th-primary-medium md:text-xl">{partners.name}</p>
