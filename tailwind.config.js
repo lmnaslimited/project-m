@@ -3,11 +3,10 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       boxShadow: {
-        DEFAULT: '-8px -8px 12px 0px',
+        DEFAULT: '-10px -10px 20px -10px',
       },
 
       colors: {

@@ -2,11 +2,17 @@ import Image from "next/image";
 import { imagePrefix } from '../../lib/envConvert'
 
 export default function Hero() {
-  //const bgImageClass = "[url(" + imagePrefix('/hero/bg-hero-1000x666.png') + ")]"
+  
   const bgImageClass = "leading-normal tracking-normal py-28 pt-10 bg-cover md:bg-cover bg-[url('" + imagePrefix('/hero/bg-hero-1000x666.png')  + "')]"
-  //console.log(bgImageClass)
   return (<>
-    <section className={(bgImageClass)}>
+    <section className="leading-normal tracking-normal py-28 pt-10 bg-cover md:bg-cover"
+         style={{  
+          backgroundImage: "url(" + imagePrefix('/hero/bg-hero-1000x666.png') + ")",
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
+        }}
+    >
       <div className="grid grid-rows-1 grid-cols-2 gap-2 mr-10 py-20 ">
         <div className="row-span-1 col-span-1 ">
           <div className=" ml-20">
