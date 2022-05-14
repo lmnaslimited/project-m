@@ -4,7 +4,7 @@ import Hero from "../components/hero/hero";
 import Services from "../components/services/services";
 import Technologies from "../components/technologies/technologies";
 import Container from "../components/container";
-import Partners from '../components/partners'
+import Partners from '../components/partners';
 import {getHomePageData} from '../lib/api'
 
 export default function Home({homeData}) {

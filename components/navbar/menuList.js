@@ -16,13 +16,14 @@ export default function MenuList({ menuItems }) {
 //Sub function to build the individual menu
 function Menu({ menuItem }) {
   return (
-    <a href="#responsive-header" className="block mt-4 pr-8 lg:inline-block lg:mt-0 text-th-primary-dark hover:text-th-primary-medium mr-4">
+    <a href="/about" className="block mt-4  xl:mb-0 lg:pr-2 xl:pr-8 lg:inline-block lg:mt-0 text-th-primary-dark hover:text-th-primary-medium mr-4">
       {menuItem.menu}
       {menuItem.subMenus ? (
         <CollapseMenu subMenus={menuItem.subMenus} />
       ) : null
       }
     </a>
+     
 
 
   )

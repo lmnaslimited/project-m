@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Hero() {
   return (<>
-    <section className="leading-normal tracking-normal py-80 pt-10 bg-cover md:bg-cover bg-[url('/hero/bg-hero-1000x666.png')] ">
+    <section className="leading-normal tracking-normal py-80 pt-10 bg-center md:bg-cover bg-[url('/hero/bg-hero-1.png')] md:bg-[url('/hero/bg-hero-1000x666.png')] ">
       <div className="grid grid-rows-1 grid-cols-2 gap-2 mr-10 py-20 ">
         <div className="row-span-1 col-span-1 ">
-          <div className=" ml-20">
-            <h1 className="mb-10 font-bold drop-shadow-lg text-4xl md:text-5xl max-w-xl text-th-primary-dark leading-tight">Dont listen to what they say, Go See</h1>
+          <div className=" ml-2">
+            <h1 className=" font-bold drop-shadow-lg text-lg md:text-4xl  max-w-xl text-th-primary-dark leading-tight">Dont listen to what they say, Go See</h1>
           </div>
           <button type="button" className=" mt-20 ml-20 px-12 py-4 m-1 text-th-primary-dark text-lg font-semibold transition-colors duration-200 transform bg-th-accent-medium rounded-md ">
-            Join Us
-          </button>
+            GET IN TOUCH
+  </button>
         </div>
         <div className="row-span-1 col-span-1">
           <div className="grid grid-cols-14 grid-flow-col gap-4 ml-4">       

@@ -6,15 +6,18 @@ export default function Logo({size, textColor}) {
     return (
         <div className={'flex items-center flex-shrink-0 mr-6 ' + colorClass}>
             <div className=' mr-4'>
-                <Image
-                    src="/scl-logo-161x108.jpeg"
-                    height={size?size:'60'}
-                    width={size?size:'60'}
-                    className='rounded-full'
+                <div className='flex bg-th-background-secondary mb-4 px-1 py-1 rounded-full'>
+                    <Image
+                    src="/about/scl-logo.png"
+                    height={size?size:'70'}
+                    width={size?size:'70'}
+                    className="w-32 h-16 text-white p-2"
                     alt='Logo'
                 />
+                
+                </div>
             </div>
-            <span className="font-semibold text-3xl tracking-tight">SCL</span>
+            
         </div>
     )
 }

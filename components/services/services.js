@@ -16,8 +16,8 @@ export default function Services({services}) {
                     <div className="flex flex-col text-center w-full mb-20">
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-th-primary-medium">{services.title}
                         </h1>
-                        <p className="lg:w-2/3 mx-auto text-th-primary-dark leading-relaxed text-base">{services.subTitle}
-                        </p>
+                        <i><p className="lg:w-2/3 mx-auto text-th-primary-dark tracking-widest leading-loosed text-base">{services.subTitle}
+                       </p></i>
                     </div>
                     <div className="flex flex-wrap -m-4 text-center">
                         {services.services.slice(0, 4).map((service) => (

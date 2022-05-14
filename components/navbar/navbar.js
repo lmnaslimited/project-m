@@ -20,13 +20,13 @@ const Navbar = ({ categories }) => {
   useEffect(() => setMounted(true), []);
   const appContext = useContext(AppContext);
   if (!mounted) return null;
-  return (<div className="bg-th-accent-dark  h-28">
+  return (<div className="bg-th-accent-dark h-28 lg:h-40  xl:h-28">
     <Container>
       <nav className="mx-auto  flex items-center justify-between flex-wrap py-6">
         <Logo />
         {/**Handle Hamburger toggle and set the displayMobileMenu AppContext */}
         <ToggleMobileMenu />
-        <div className={"w-full block flex-grow lg:flex  lg:items-center lg:w-auto " + (appContext.displayMobileMenu ? " hidden" : null)}>
+        <div className={"w-full block flex-grow lg:flex lg:items-center lg:w-auto " + (appContext.displayMobileMenu ? " hidden" : null)}>
           <MenuList menuItems={menuItems} />
           {/**To be replaced with Typesense Search */}
           {/** <Search /> */}
@@ -47,6 +47,7 @@ export default Navbar
 function BuildMenu({ categories }) {
   // const cat = categories.map((category) => { return category.name })
   return [
+    { menu: 'About'},
     { menu: 'Services' },
     {
       menu: 'Technology',
@@ -56,6 +57,9 @@ function BuildMenu({ categories }) {
       // Uncomment below code to enable submenus
       //    subMenus: [...cat]
     }, 
+    {
+      menu: 'Contact',
+    },
     //{ menu: 'Contact' }, { menu: 'Subscriptions' }
   ]
 }
