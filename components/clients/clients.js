@@ -5,9 +5,9 @@ export default function brands({clients}) {
     return (
         <section className="lg:mx-40 md:mx-8 mx-2 h-60 md:mb-10">
             <div className="flex flex-col text-center w-full mb-20">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-th-primary-medium">Trusted by Global Clients, Built by Us
+                <h1 className="sm:text-4xl text-2xl font-bold title-font mb-4 text-th-primary-medium">{clients.title}
                 </h1>
-                <p className="lg:w-2/3 mx-auto text-th-primary-dark leading-relaxed md:text-lg text-base">Our Client Speak our values.
+                <p className="lg:w-2/3 mx-auto text-th-primary-dark leading-relaxed text-lg md:text-xl text-base">{clients.subTitle}
                 </p>
             </div>
             <Marquee gradientWidth="150" pauseOnHover>

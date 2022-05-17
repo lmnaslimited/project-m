@@ -11,7 +11,7 @@ export default function Footer() {
           <a className="flex title-font font-medium items-center md:justify-start justify-center">
             <Logo size={'50'} textColor={'text-th-primary-medium'}/>
           </a>
-          <p className="mt-2 md:w-4/5 lg:mt-10 w-full font-medium text-th-primary-dark text-md lg:text-lg md:text-md" >SCL with new style as mentioned at first Experience-Quality-Commitment-Flexibility
+          <p className="mt-2 md:w-4/5 lg:mt-10 w-full font-medium text-th-primary-dark text-md lg:text-lg md:text-md" >A service-based company is the one that provides customers, clients the ultimate solution to their requirements or a service to another company.
 </p>
         </div>
         <div className="lg:row-span-1 row-span-1 col-span-1 mx-2 px-2 my-5 py-5">

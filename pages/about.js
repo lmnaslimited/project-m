@@ -93,8 +93,8 @@ export default function AboutUs() {
             <div className="flex flex-col mb-6  lg:w-3/4 lg:pr-8 md:w-full w-full lg:flex-col md:mb-10">
               <div className="lg:w-full md:w-4/3 w-2/7 ml-4 md:ml-8">
                 <p className="font-Arial tracking-widest leading-loose font-medium mb-8 mt-8 text-md md:text-xl">
-               <i><span className="text-th-accent-medium mr-1">SCL</span> is a forward-thinking technology company provides project/support-based IT consulting, services, digital-transformation, training, talent recruitment for <span className="text-th-accent-medium mr-1"> SAP</span>and other<span className="text-th-accent-medium mr-1">  IT technologies.</span>
-                 we add value through software development, talent acquisition, training programs and proven success rendering <span className="text-th-accent-medium">world-class</span>Name deliverables. 
+               <i><span className="text-th-accent-medium mr-1">SCL</span> is a forward-thinking technology company provides project/support-based IT consulting, services, digital-transformation, training,<span className="text-th-accent-medium ml-1">expert/fire-fighter</span> SAP support,offshore support model and  talent recruitment for other<span className="text-th-accent-medium mr-1">  IT technologies.</span>
+                 we add value through software development, talent acquisition, training programs and proven success rendering <span className="text-th-accent-medium">world-class</span> deliverables. 
                  </i> </p>
               </div>
             </div>
