@@ -17,7 +17,7 @@ export default function MenuList({ menuItems }) {
 function Menu({ menuItem }) {
   return (
     
-    <a href="/about" className="block  mt-4  xl:mb-0 lg:pr-2 xl:pr-8 lg:text-sm xl:text-xl  lg:inline lg:mt-0 text-th-primary-dark hover:text-th-primary-medium mr-4">
+    <a href="/contact" className="block  mt-4  xl:mb-0 lg:pr-2 xl:pr-8 lg:text-sm xl:text-xl  lg:inline lg:mt-0 text-th-primary-dark hover:text-th-primary-medium mr-4">
       {menuItem.menu}
       {menuItem.subMenus ? (
         <CollapseMenu subMenus={menuItem.subMenus} />

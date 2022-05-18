@@ -9,7 +9,7 @@ export default function Technologies({technologies}) {
             <button
               className="bg-th-accent-medium font-bold md:px-4 py-2 px-4  w-auto md:py-4  mb-2 md:mx-0 mx-8  rounded-lg focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
               type="button">
-              <a href="#" className="w-full text-white tracking-normal font-bold text-md md:text-lg th-primary-dark btn btn-primary btn-lg sm:w-auto">{technologies.ctaText}</a>
+              <a href="/contact" className="w-full text-white tracking-normal font-bold text-md md:text-lg th-primary-dark btn btn-primary btn-lg sm:w-auto">{technologies.ctaText}</a>
             </button>
           </div>
           <div className="flex bg-th-background-secondary shadow shadow-th-accent-medium rounded-3xl w-full md:p-12  transform transition hover:scale-105 duration-300 ease-in-out flex-col md:flex-grow space-y-5">
