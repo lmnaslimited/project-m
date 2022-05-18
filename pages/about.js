@@ -19,13 +19,21 @@ export default function AboutUs() {
                 <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                 <div className='flex items-center flex-shrink-0 mr-6 '>
             <div className=' mr-4'>
-            <div className='flex bg-th-background-secondary mb-4 px-1 py-1 rounded-full'>
-                    <img
-                    src="/about/scl-logo.png"
-                    className="w-20 h-20 text-white p-2"
+            <div className='flex bg-white mb-4 px-1 py-1 rounded-lg '>
+            <img
+                    src="/scl-logo-161x108.png"
+                    height="60"
+                    width="60"
+                    className="text-white p-2"
                     alt='Logo'
                 />
-                
+                 <img
+                    src="/scl-161x108.png"
+                    height="60"
+                    width="60"
+                    className="text-white p-2"
+                    alt='Logo'
+                />
                 </div>
             </div>
         </div>

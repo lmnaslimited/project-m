@@ -6,13 +6,21 @@ export default function Contact() {
                     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                         <div className='flex items-center flex-shrink-0 mr-6 '>
                             <div className=' mr-4'>
-                                <div className='flex bg-th-background-secondary mb-4 px-1 py-1 rounded-full'>
-                                    <img
-                                        src="/about/scl-logo.png"
-                                        className="w-20 h-20 text-white p-2"
-                                        alt='Logo'
-                                    />
-
+                                <div className='flex bg-white mb-4 px-1 py-1 rounded-full'>
+                                <img
+                    src="/scl-logo-161x108.png"
+                    height="60"
+                    width="60"
+                    className="text-white p-2"
+                    alt='Logo'
+                />
+                 <img
+                    src="/scl-161x108.png"
+                    height="60"
+                    width="60"
+                    className="text-white p-2"
+                    alt='Logo'
+                />
                                 </div>
                             </div>
 
@@ -24,7 +32,7 @@ export default function Contact() {
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+                    className="w-10 h-10 text-white p-2 bg-indigo-600 rounded-full"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
@@ -63,7 +71,7 @@ export default function Contact() {
                                         <label for="" className="text-lg text-th-primary-dark font-semibold px-1">Last name</label>
                                         <div className="flex">
                                             <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
-                                            <input type="text" className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg  outline-none focus:border-indigo-500" placeholder="Smith" />
+                                            <input type="text" className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg  outline-none focus:border-indigo-600" placeholder="Smith" />
                                         </div>
                                     </div>
                                 </div>
@@ -72,14 +80,14 @@ export default function Contact() {
                                         <label for="" className="text-lg text-th-primary-dark font-semibold px-1">Email</label>
                                         <div className="flex">
                                             <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
-                                            <input type="email" className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg  outline-none focus:border-indigo-500" placeholder="johnsmith@example.com" />
+                                            <input type="email" className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg  outline-none focus:border-indigo-600" placeholder="johnsmith@example.com" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="flex -mx-3">
                                     <div class="w-full px-3 mb-5">
                                         <label for="message" className="text-lg text-th-primary-dark font-semibold px-1">Message</label>
-                                        <textarea id="message" name="message" class="w-full bg-white rounded  focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                        <textarea id="message" name="message" class="w-full bg-white rounded  focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                                     </div>
                                 </div>
                                 <div className="flex -mx-3">
@@ -94,8 +102,8 @@ export default function Contact() {
             </div>
             <div className="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
                 <div>
-                    <a title="home" href="tel:+44 2030062716 / +44 7535029430" target="_blank" className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
-                        <img className="object-cover object-center w-full h-full rounded-full" src="/contact/contact-bg-sec-500x500.png" />
+                    <a title="home" href="tel:+44 2030062716 / +44 7536029430" target="_blank" className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
+                        <img className="object-cover object-center w-full h-full rounded-full" src="/contact/contact-bg-sec-600x600.png" />
                     </a>
                 </div>
             </div>
