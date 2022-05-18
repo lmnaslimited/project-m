@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="text-gray-600 body-font">
       <div className="grid lg:grid-rows-1 lg:grid-cols-3 grid-rows-2 grid-cols-2 bg-gradient-to-r from-midnight via-th-background-secondary to-gray-midnight">
 
-        <div className="lg:row-span-1 lg:col-span-1 row-span-1 col-span-2 mx-5 px-5 my-4 py-4">
+        <div className="lg:row-span-1 lg:col-span-1 row-span-1 col-span-2 mx-5 px-5 ">
           <a className="flex title-font font-medium items-center md:justify-start justify-center">
             <Logo size={'50'} textColor={'text-th-primary-medium'}/>
           </a>
