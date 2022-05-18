@@ -6,9 +6,9 @@ export default function Hero() {
       <div className="grid grid-rows-1 grid-cols-2 gap-2 mr-10 py-20 ">
         <div className="row-span-1 col-span-1 ">
           <div className=" ml-2">
-            <h1 className=" font-bold drop-shadow-lg text-lg md:text-4xl  max-w-xl text-th-primary-dark leading-tight">Dont listen to what they say, Go See</h1>
+            <h1 className=" font-bold drop-shadow-lg text-lg md:text-4xl  max-w-xl text-th-primary-dark leading-tight"></h1>
           </div>
-          <button type="button" className=" mt-20 ml-20 px-12 py-4 m-1 text-th-primary-dark text-lg font-semibold transition-colors duration-200 transform bg-th-accent-medium rounded-md ">
+          <button type="button" className=" mt-20 ml-4 md:ml-20 px-4 md:px-12 py-4 m-1 text-th-primary-dark text-sm md:text-lg font-semibold transition-colors duration-200 transform bg-th-accent-medium rounded-md ">
             GET IN TOUCH
   </button>
         </div>

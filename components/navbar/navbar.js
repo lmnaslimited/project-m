@@ -20,9 +20,9 @@ const Navbar = ({ categories }) => {
   useEffect(() => setMounted(true), []);
   const appContext = useContext(AppContext);
   if (!mounted) return null;
-  return (<div className="bg-th-accent-dark h-28 lg:h-40  xl:h-28">
+  return (<div className="bg-gradient-to-r from-midnight via-th-background-secondary to-gray-midnight h-28">
     <Container>
-      <nav className="mx-auto  flex items-center justify-between flex-wrap py-6">
+      <nav className="mx-auto flex items-center justify-between flex-wrap py-6">
         <Logo />
         {/**Handle Hamburger toggle and set the displayMobileMenu AppContext */}
         <ToggleMobileMenu />
@@ -30,7 +30,7 @@ const Navbar = ({ categories }) => {
           <MenuList menuItems={menuItems} />
           {/**To be replaced with Typesense Search */}
           {/** <Search /> */}
-          <div className="flex items-center justify-between flex-row-reverse lg:flex-row">
+          <div className="flex items-center flex-wrap lg:flex justify-between flex-row-reverse lg:flex-row">
             <div className="mt-4 lg:mt-0">
               <SunMoon />
             </div>

@@ -6,7 +6,7 @@ export default function Logo({size, textColor}) {
     return (
         <div className={'flex items-center flex-shrink-0 mr-6 ' + colorClass}>
             <div className=' mr-4'>
-                <div className='flex bg-white mb-4 px-1 py-1 rounded-lg '>
+                <div className='flex  mb-4 px-1 py-1 rounded-lg '>
                     <Image
                     src="/scl-logo-161x108.png"
                     height={size?size:'50'}
