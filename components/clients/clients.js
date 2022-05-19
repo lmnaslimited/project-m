@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 import Image from 'next/image'
 export default function brands({clients}) {
     return (
-        <section className="lg:mx-40 md:mx-8 mx-2 h-60 md:mb-10">
+        <section id='clients' className="lg:mx-40 md:mx-8 mx-2 h-60 md:mb-10">
             <div className="flex flex-col text-center w-full mb-20">
                 <h1 className="sm:text-4xl text-2xl font-bold title-font mb-4 text-th-primary-medium">{clients.title}
                 </h1>

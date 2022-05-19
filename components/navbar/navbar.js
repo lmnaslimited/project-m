@@ -47,18 +47,25 @@ export default Navbar
 function BuildMenu({ categories }) {
   // const cat = categories.map((category) => { return category.name })
   return [
-    { menu: 'About'},
-    { menu: 'Services' },
+    { menu: 'Home',
+      href: '/'},
+    { menu: 'About',
+      href: 'about'},
+    { menu: 'Services',
+      href: '/#services' },
     {
       menu: 'Technology',
+      href: '/#technology'
     },
     {
       menu: 'Clients',
+      href: '/#clients'
       // Uncomment below code to enable submenus
       //    subMenus: [...cat]
     }, 
     {
       menu: 'Contact',
+      href: '/contact'
     },
     //{ menu: 'Contact' }, { menu: 'Subscriptions' }
   ]

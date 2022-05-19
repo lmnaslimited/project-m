@@ -1,7 +1,7 @@
 export default function Technologies({technologies}) {
   return (
     <>
-      <section className="flex rounded-3xl my-40  px-20  shadow shadow-white py-20 mx-auto max-w-7xl">
+      <section id='technology' className="flex rounded-3xl my-40  px-20  shadow shadow-white py-20 mx-auto max-w-7xl">
         <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-y-10 lg:gap-y-32 gap-x-10 lg:gap-x-24">
           <div className="">
             <h2 className="mb-3 text-3xl font-extrabold leading-tight tracking-normal text-center text-th-primary-medium sm:text-left md:text-4xl">{technologies.title}</h2>
