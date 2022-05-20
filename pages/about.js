@@ -130,7 +130,7 @@ export default function AboutUs() {
             <div className="row-span-1 col-span-1 lg:ml-28 bg-th-background-secondary px-4">
               <div className="flex flex-col my-12">
                 <div className="flex flex-row mb-4 text-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12" viewBox="0 0 20 20" fill="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z" />
                   </svg>
                   <h1 className="font-semibold font-arial text-xl md:text-2xl lg:text-3xl mt-1 md:mt-2 lg:ml-4 text-th-primary-medium">Business Growth</h1>
@@ -143,20 +143,20 @@ export default function AboutUs() {
             <div className="row-span-1 col-span-1 lg:mr-28 bg-th-background-secondary px-4">
               <div className="flex flex-col my-12">
                 <div className="flex flex-row mb-4 text-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                   </svg>
                   <h1 className="font-semibold font-arial text-xl md:text-2xl lg:text-3xl mt-1 md:mt-2 lg:ml-4 text-th-primary-medium">Finanical Growth</h1>
                 </div>
                 <div className="flex text-center justify-center">
-                  <p className="w-full mb-2 md:mb-0 lg:w-3/4 font-semibold font-arial tracking-widest text-sm md:text-lg text-th-primary-dark">  Provide visible positive contribution to<span className="">the client's IT growth strategy.</span></p>
+                  <p className="w-full mb-2 md:mb-0 lg:w-3/4 font-semibold font-arial tracking-widest text-sm md:text-lg text-th-primary-dark">  Provide visible positive contribution to<span className="">the client&apos;s IT growth strategy.</span></p>
                 </div>
               </div>
             </div>
             <div className="row-span-1 col-span-1 lg:ml-28 bg-th-background-secondary px-4 ">
               <div className="flex flex-col my-12">
                 <div className="flex flex-row mb-4 text-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12" viewBox="0 0 20 20" fill="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
                   </svg>
                   <h1 className="font-semibold font-arial text-xl  md:text-2xl lg:text-3xl mt-1 md:mt-2 lg:ml-4 text-th-primary-medium">Planning</h1>
@@ -169,7 +169,7 @@ export default function AboutUs() {
             <div className="row-span-1 col-span-1 lg:mr-28 bg-th-background-secondary px-4">
               <div className="flex flex-col my-12">
                 <div className="flex flex-row mb-4 text-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12" viewBox="0 0 20 20" fill="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 md:h-10 md:w-10 lg:h-12 lg:w-12" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
                   </svg>
                   <h1 className="font-semibold font-arial text-xl  md:text-2xl lg:text-3xl mt-1 md:mt-2 lg:ml-4 text-th-primary-medium">Performance</h1>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Index({partners}) {
     return (
-        <section classNameName="bg-purple-50 ">
+        <section >
             <div className=" py-32 mt-72 mb-20 lg:my-40 shadow shadow-th-primary-dark rounded-3xl mx-auto max-w-7xl px-20 ">
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="sm:text-3xl text-2xl font-bold tracking-normal title-font mb-4 text-th-primary-medium">{partners.title}

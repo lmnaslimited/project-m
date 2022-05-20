@@ -59,20 +59,20 @@ export default function Contact() {
                                     <img src="/contact/coffee-meeting.jpeg" className="w-full object-cover h-auto" />   </div>
                                 <div className="w-full md:w-1/2 py-10 px-5 md:px-10">
                                     <div className="text-center text-th-primary-dark mb-10">
-                                        <h1 className="font-bold text-3xl text-th-primary-medium">Let's Connect</h1>
+                                        <h1 className="font-bold text-3xl text-th-primary-medium">Let&apos;s Connect</h1>
 
                                     </div>
                                     <div>
                                         <div className="flex -mx-3">
                                             <div className="w-1/2 px-3 mb-5">
-                                                <label for="" className="text-lg text-th-primary-dark font-semibold px-1">First name</label>
+                                                <label className="text-lg text-th-primary-dark font-semibold px-1">First name</label>
                                                 <div className="flex">
                                                     <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="mdi mdi-account-outline  text-lg"></i></div>
                                                     <input type="text" className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg  outline-none " placeholder="John" />
                                                 </div>
                                             </div>
                                             <div className="w-1/2 px-3 mb-5">
-                                                <label for="" className="text-lg text-th-primary-dark font-semibold px-1">Last name</label>
+                                                <label className="text-lg text-th-primary-dark font-semibold px-1">Last name</label>
                                                 <div className="flex">
                                                     <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
                                                     <input type="text" className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg  outline-none focus:border-indigo-600" placeholder="Smith" />
@@ -81,7 +81,7 @@ export default function Contact() {
                                         </div>
                                         <div className="flex -mx-3">
                                             <div className="w-full px-3 mb-5">
-                                                <label for="" className="text-lg text-th-primary-dark font-semibold px-1">Email</label>
+                                                <label className="text-lg text-th-primary-dark font-semibold px-1">Email</label>
                                                 <div className="flex">
                                                     <div className="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i className="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
                                                     <input type="email" className="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg  outline-none focus:border-indigo-600" placeholder="johnsmith@example.com" />
@@ -89,9 +89,9 @@ export default function Contact() {
                                             </div>
                                         </div>
                                         <div className="flex -mx-3">
-                                            <div class="w-full px-3 mb-5">
-                                                <label for="message" className="text-lg text-th-primary-dark font-semibold px-1">Message</label>
-                                                <textarea id="message" name="message" class="w-full bg-white rounded  focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                                            <div className="w-full px-3 mb-5">
+                                                <label className="text-lg text-th-primary-dark font-semibold px-1">Message</label>
+                                                <textarea id="message" name="message" className="w-full bg-white rounded  focus:border-indigo-600 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                                             </div>
                                         </div>
                                         <div className="flex -mx-3">
@@ -106,7 +106,7 @@ export default function Contact() {
                     </div>
                     <div className="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
                         <div>
-                            <a title="home" href="tel:+44 2030062716 / +44 7536029430" target="_blank" className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
+                            <a title="home" href="tel:+44 2030062716" className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
                                 <img className="object-cover object-center w-full h-full rounded-full" src="/contact/contact-bg-sec-500x500.png" />
                             </a>
                         </div>

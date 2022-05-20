@@ -1,4 +1,5 @@
-export default function Technologies({technologies}) {
+import Link from "next/link"
+export default function Technologies({ technologies }) {
   return (
     <>
       <section id='technology' className="flex rounded-3xl my-40  px-20  shadow shadow-white py-20 mx-auto max-w-7xl">
@@ -6,11 +7,13 @@ export default function Technologies({technologies}) {
           <div className="">
             <h2 className="mb-3 text-3xl font-extrabold leading-tight tracking-normal text-center text-th-primary-medium sm:text-left md:text-4xl">{technologies.title}</h2>
             <p className="mb-6 text-lg text-center th-primary-dark sm:text-left md:text-xl">{technologies.subTitle}</p>
-            <button
-              className="bg-th-accent-medium font-bold md:px-4 py-2 px-4  w-auto md:py-4  mb-2 md:mx-0 mx-8  rounded-lg focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-              type="button">
-              <a href="/contact" className="w-full text-white tracking-normal font-bold text-md md:text-lg th-primary-dark btn btn-primary btn-lg sm:w-auto">{technologies.ctaText}</a>
-            </button>
+            <Link href="/contact">
+              <button
+                className="bg-th-accent-medium font-bold md:px-4 py-2 px-4  w-auto md:py-4  mb-2 md:mx-0 mx-8  rounded-lg focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                type="button">
+                <a  className="w-full text-white tracking-normal font-bold text-md md:text-lg th-primary-dark btn btn-primary btn-lg sm:w-auto">{technologies.ctaText}</a>
+              </button>
+            </Link>
           </div>
           <div className="flex bg-th-background-secondary shadow shadow-th-accent-medium rounded-3xl w-full md:p-12  transform transition hover:scale-105 duration-300 ease-in-out flex-col md:flex-grow space-y-5">
             {technologies.expertise.map((expert) => (
