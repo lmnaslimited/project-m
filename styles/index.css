@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grayscale {
+  filter: grayscale(1);
+}
+:root {
+  --background: theme('colors.midnight');
+  --background-secondary: theme('colors.gray.800');
+
+  --accent-dark: theme('colors.teal.600');
+  --accent-medium: theme('colors.amber.500');
+  --accent-light: theme('colors.pink.500');
+
+  --primary-dark: theme('colors.white');
+  --primary-medium: theme('colors.lime.500');
+  --primary-light: theme('colors.gray.100');
+}
+
+[data-theme='dark'] {
+  --background: theme('colors.midnight');
+  --background-secondary: theme('colors.gray.800');
+
+  --accent-dark: theme('colors.teal.600');
+  --accent-medium: theme('colors.amber.500');
+  --accent-light: theme('colors.pink.500');
+
+  --primary-dark: theme('colors.white');
+  --primary-medium: theme('colors.lime.500');
+  --primary-light: theme('colors.gray.100');
+}
+
