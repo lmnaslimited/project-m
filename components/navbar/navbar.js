@@ -31,9 +31,9 @@ const Navbar = ({ categories }) => {
           {/**To be replaced with Typesense Search */}
           {/** <Search /> */}
           <div className="flex items-center flex-wrap lg:flex justify-between flex-row-reverse lg:flex-row">
-            <div className="mt-4 lg:mt-0">
+           {/** <div className="mt-4 lg:mt-0">
               <SunMoon />
-            </div>
+            </div> *}
             {/** <Login /> */}
           </div>
         </div>
