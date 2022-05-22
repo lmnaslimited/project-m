@@ -21,13 +21,13 @@ function MyApp({ Component, pageProps }) {
         // removeItem: this.removeItem,
       }}
     >
-      
+
       <ThemeProvider>
-      <div className='bg-midnight'>
-        <Component {...pageProps} />
+        <div className='bg-midnight'>
+          <Component {...pageProps} />
         </div>
       </ThemeProvider>
-      
+
     </AppContext.Provider>
   )
 }
