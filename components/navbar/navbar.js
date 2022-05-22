@@ -8,6 +8,7 @@ import Logo from "./logo";
 import ToggleMobileMenu from "./toggleMobileMenu";
 import AppContext from '../../context/appContext';
 import Container from "../container";
+import { useTheme } from 'next-themes';
 
 const industries = ['Retail', 'Education', 'Healthcare', 'Distribution', 'Manufacturing', 'Agriculture']
 
@@ -16,9 +17,12 @@ const Navbar = ({ categories }) => {
   //const cat = categories.map((category) => { return category.name })
   const menuItems = BuildMenu({ categories })
   const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
+
   // When mounted on client, now we can show the UI
   useEffect(() => setMounted(true), []);
   const appContext = useContext(AppContext);
+  setTheme('dark');
   if (!mounted) return null;
   return (<div className="bg-gradient-to-r from-midnight via-th-background-secondary to-gray-midnight h-28">
     <Container>
